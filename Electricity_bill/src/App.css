@@ -1,0 +1,36 @@
+.app-container{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
+    padding: 10px;
+    
+}
+.header{
+    grid-row: 1 / 2;
+    background-color: rgb(228, 66, 66);
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+.nav{
+    grid-row: 2 / 3;
+    
+    background-color: rgb(228, 66, 66);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 2px;
+}
+.body{
+    grid-row: 3 / 4;
+    background-color: white;
+    
+
+    
+}
+.footer{
+    grid-row: 4 / 5;
+    text-align: center;
+    background-color: rgb(228, 66, 66);
+}
